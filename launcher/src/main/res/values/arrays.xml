@@ -1,0 +1,53 @@
+<resources>
+    <string-array name="input_language_entries">
+        <item>English</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="input_language_values">
+        <item>en-US</item>
+        <item>zh-CN</item>
+        <item>ja-JP</item>
+    </string-array>
+
+    <string-array name="azure_region_entries">
+        <item>East Asia</item>
+        <item>West US</item>
+    </string-array>
+
+    <string-array name="azure_region_values">
+        <item>eastasia</item>
+        <item>westus</item>
+    </string-array>
+
+    <string-array name="azure_synthesis_language_entries">
+        <item>English</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="azure_synthesis_language_values">
+        <item>en-US</item>
+        <item>zh-CN</item>
+        <item>ja-JP</item>
+    </string-array>
+
+    <string-array name="azure_synthesis_voice_name_entries">
+        <item>English-Female</item>
+        <item>English-Male</item>
+        <item>中文-Female</item>
+        <item>中文-Male</item>
+        <item>日本語-Female</item>
+        <item>日本語-Male</item>
+    </string-array>
+
+    <string-array name="azure_synthesis_voice_name_values">
+        <item>en-US-JennyNeural</item>
+        <item>en-US-GuyNeural</item>
+        <item>zh-CN-XiaoxuanNeural</item>
+        <item>zh-CN-XiaoyoungNeural</item>
+        <item>ja-JP-AoiNeural</item>
+        <item>ja-JP-DaichiNeural</item>
+    </string-array>
+</resources>

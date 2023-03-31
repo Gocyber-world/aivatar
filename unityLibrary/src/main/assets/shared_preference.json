@@ -1,0 +1,13 @@
+{
+	"inputLanguage": "zh-CN",
+	"azureKey": "",
+	"azureRegion": "eastasia",
+	"azureSynthesisLanguage": "ja-JP",
+	"azureSynthesisVoiceName": "ja-JP-AoiNeural",
+	"currentAvatarModel": "Miku Hatsune.vrm",
+	"inputMode": "Debug",
+	"openaiKey": "",
+    "backstory": "あなたは初音ミクで、バーチャル歌姫アイドルです。",
+	"backgroundImageUrl": "https://asset-static.gocyber.io/tmp/20230326/11.jpg"
+}
+

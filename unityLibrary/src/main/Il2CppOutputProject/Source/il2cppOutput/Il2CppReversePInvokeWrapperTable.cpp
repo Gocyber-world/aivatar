@@ -1,0 +1,113 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577(Il2CppChar* ___language0);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m321A2621068F1C9509594A4D8F405F4F12C1CEB3(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_mB0AD438266A9DD2813715E8BC90BF07DC7A02F52(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3(intptr_t ___arg0);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_m641F7510BE5E1426DD4EE2765007FCA37E86E0F7(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_mA727407C3AAB48CD19521F3FFF7E163A0E63455C(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_m21C1A7D4CCC4E33EC2EA05B48E44CC604E36C705(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_m94DA4231F52F17425D472988B350E23C2A574C88(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_mF0152E00B21076D0AA20D551D4659ED141BA2A87(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m1F3199AAADDAAAD62E3A93985B2668A9A23E8205(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_mC85B8A7E5FC2E2D4FC053DBD8AC419F17468EB4F(intptr_t ___hreco0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_BookmarkReached_mAE29BA2C13370B1DAD470C77BA94D6C78323252B(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisCanceled_m7DE5EEF47A97AB9A87086BBAEFD1071AD0FE6A62(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisCompleted_mA6B9B9608284B368EBB0ACEB2435F8AF4E1DA697(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisStarted_m5F334596EDCFD05CDB4580B5EA48652570F8FFCF(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_Synthesizing_m24B7E2544FCD3A790884321EF6CB19782CC2012B(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_VisemeReceived_m7001E3B02AF59432D43A2ABBDE78CDA7791D0AC0(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" void CDECL ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_WordBoundary_m04868B177600ED62D38CFC0FF380E6D3D4416772(intptr_t ___hsynth0, intptr_t ___hevent1, intptr_t ___pvContext2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m8F3C6D0129D14359B51860FBA51933C4FE92F131();
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[19] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m321A2621068F1C9509594A4D8F405F4F12C1CEB3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_mB0AD438266A9DD2813715E8BC90BF07DC7A02F52),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStarted_m641F7510BE5E1426DD4EE2765007FCA37E86E0F7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SetSessionStopped_mA727407C3AAB48CD19521F3FFF7E163A0E63455C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechEndDetected_m21C1A7D4CCC4E33EC2EA05B48E44CC604E36C705),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Recognizer_FireEvent_SpeechStartDetected_m94DA4231F52F17425D472988B350E23C2A574C88),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Canceled_mF0152E00B21076D0AA20D551D4659ED141BA2A87),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognized_m1F3199AAADDAAAD62E3A93985B2668A9A23E8205),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechRecognizer_FireEvent_Recognizing_mC85B8A7E5FC2E2D4FC053DBD8AC419F17468EB4F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_BookmarkReached_mAE29BA2C13370B1DAD470C77BA94D6C78323252B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisCanceled_m7DE5EEF47A97AB9A87086BBAEFD1071AD0FE6A62),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisCompleted_mA6B9B9608284B368EBB0ACEB2435F8AF4E1DA697),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_SynthesisStarted_m5F334596EDCFD05CDB4580B5EA48652570F8FFCF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_Synthesizing_m24B7E2544FCD3A790884321EF6CB19782CC2012B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_VisemeReceived_m7001E3B02AF59432D43A2ABBDE78CDA7791D0AC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_SpeechSynthesizer_FireEvent_WordBoundary_m04868B177600ED62D38CFC0FF380E6D3D4416772),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m8F3C6D0129D14359B51860FBA51933C4FE92F131),
+};

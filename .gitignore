@@ -1,0 +1,7 @@
+# Default ignored files
+.idea/
+.gradle/
+launcher/build/
+unityLibrary/build/
+unityLibrary/symbols/
+local.properties
