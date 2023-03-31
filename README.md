@@ -44,7 +44,7 @@ Download and install [Unity 2021.3.11f1](https://unity3d.com/get-unity/download/
 
 #### Install Android Studio and Upgrade Gradle
 
-Download and install [Android Studio](https://developer.android.com/studio), then upgrade the Gradle Android Plugin to 7.5.
+Download and install [Android Studio](https://developer.android.com/studio).
 
 #### Clone the Repository
 
