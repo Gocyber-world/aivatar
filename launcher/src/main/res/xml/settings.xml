@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Input Settings"
+        android:icon="@android:drawable/ic_menu_edit">
+        <ListPreference
+            android:key="inputLanguage"
+            android:title="Language"
+            android:summary="Select input language"
+            android:defaultValue="en-US"
+            android:entries="@array/input_language_entries"
+            android:entryValues="@array/input_language_values"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Voice Settings"
+        android:icon="@android:drawable/ic_lock_silent_mode">
+        <ListPreference
+            android:key="azureRegion"
+            android:title="Azure Region"
+            android:summary="Select Azure region for text-to-speech synthesis"
+            android:defaultValue="eastasia"
+            android:entries="@array/azure_region_entries"
+            android:entryValues="@array/azure_region_values"
+            />
+        <ListPreference
+            android:key="azureSynthesisLanguage"
+            android:title="Synthesis Language"
+            android:summary="Select Azure synthesis language"
+            android:defaultValue="en-US"
+            android:entries="@array/azure_synthesis_language_entries"
+            android:entryValues="@array/azure_synthesis_language_values"
+            />
+        <ListPreference
+            android:key="azureSynthesisVoiceName"
+            android:title="Synthesis Voice Name"
+            android:summary="Select Azure synthesis voice name"
+            android:defaultValue="en-US-JacobNeural"
+            android:entries="@array/azure_synthesis_voice_name_entries"
+            android:entryValues="@array/azure_synthesis_voice_name_values"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Keys"
+        android:icon="@android:drawable/ic_lock_idle_lock">
+        <EditTextPreference
+            android:key="openaiKey"
+            android:title="OpenAI Key"
+            android:summary="API key for OpenAI"
+            android:dialogTitle="OpenAI API Key"
+            android:dialogMessage="Enter your OpenAI API key"
+            android:defaultValue=""
+            />
+        <EditTextPreference
+            android:key="azureKey"
+            android:title="Azure Key"
+            android:summary="API key for Azure"
+            android:dialogTitle="Azure API Key"
+            android:dialogMessage="Enter your Azure API key"
+            android:defaultValue=""
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
