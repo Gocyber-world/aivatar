@@ -11,6 +11,10 @@ Aivatar allows you to use 3D avatars for your AI assistants. Give your AI assist
 
 **Discord:** [https://discord.gg/HjaVSKcAce](https://discord.gg/HjaVSKcAce)
 
+
+https://user-images.githubusercontent.com/3997447/229023308-119d3efe-d657-4d26-b2e0-326eb1bdf0c0.mp4
+
+
 Getting Started
 ---------------
 
@@ -18,11 +22,11 @@ Getting Started
 
 #### Get API Keys
 
-You need to obtain an `openaikey` and `azurekey`. Both services offer free tier plans.
+You need to obtain an [openaikey](https://platform.openai.com/account/api-keys) and [azurekey](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/#features). Both services offer free tier plans.
 
 #### Download and Install
 
-Download and install the APK on your Android device from the [APK release](https://github.com/Gocyber-world/aivatar/releases) page.
+Download and install the APK on your Android device from the [APK release](https://github.com/Gocyber-world/aivatar/releases) page. (MAKE SURE YOUR DEVICE CAN ACCESS OPENAI AND AZURE)
 
 #### Configure API Keys
 
