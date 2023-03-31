@@ -62,6 +62,16 @@ If you encounter errors related to the NDK, create a `local.properties` file at 
 ndk.dir=C\:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK
 ```
 
+Character Configuration
+--------------------
+
+#### avatar model
+This app supports VRM model format ONLY. You can use Vroid Studio to make your own model, and you may upload it to your own github repo to generate a link, then set it in the app.
+ 
+#### backgroud image
+Support common image format. Unusual format may encounter bugs. 
+
+
 Support and Contacts
 --------------------
 
